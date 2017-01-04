@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title></title>
+        <script type="text/javascript" src="/Scripts/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="/Scripts/WebAPIFileManager.js"></script>
+    </head>
+    <body>
+        Current Directory: <span id="directory"></span>
+        <br/><br/>
+        <button id="uplevel" type="button">Dir Up</button>
+        <input type="file" name="Upload" id="upload" />
+        <br/>
+        <span id="uploadResult" style="font-weight:bold"></span>
+        <br/><br/>
+        <table id="files" style="width:50%">
+            <tr>
+                <th style="text-align:left;">
+                    Action
+                </th>
+                <th style="text-align:left;">
+                    File/Folder Name
+                </th>
+                <th style="text-align:left;">
+                    Type
+                </th>
+                <th style="text-align:left;">
+                    Size
+                </th>
+                <th style="text-align:left;">
+                    File Count
+                </th>
+            </tr>
+        </table>
+    </body>
+</html>
